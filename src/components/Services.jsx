@@ -9,7 +9,7 @@ import 'swiper/css/pagination';
 import "./styles.css";
 
 // import required modules
-import {Scrollbar, Pagination } from "swiper/modules";
+import { Pagination } from "swiper/modules";
 
 export const Services = () => {
   return (
