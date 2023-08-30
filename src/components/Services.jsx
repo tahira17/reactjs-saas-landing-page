@@ -7,15 +7,18 @@ import 'swiper/css/scrollbar';
 import 'swiper/css/pagination';
 
 import "./styles.css";
-
+import {services}  from '../Data/data.js'
 // import required modules
 import { Pagination } from "swiper/modules";
 
 export const Services = () => {
+
+const Services=services
+
   return (
     <div className='bg-slate-100 h-[700px]'>
      <div className="max-w-[1320px] mx-auto">
-    <h1 className="text-4xl text-center py-20 font-bold">Services we Offer</h1>
+    <h1 className="text-4xl text-center py-20 text-black font-bold">Services we Offer</h1>
   </div>
       <Swiper
       style={{
@@ -51,95 +54,25 @@ export const Services = () => {
         className="mySwiper"
       >
         {/* Swiper slide 1 */}
-        <SwiperSlide>
+        {Services.map((item, index) => (
+        <SwiperSlide key={index} >
           <div className="bg-white overflow-hidden border-2 hover:border-purple-400 h-full rounded-2xl hover:scale-110 duration-500">
             <div className="rounded-full border-2 h-[100px] w-[100px] ml-6 m-8  hover:border-purple-300">
               <img
-                src={require("../../src/assets/1.png")}
+                src={item.Image}
                 className="px-2 py-4"
                 alt="Services"
               />
             </div>
-            <h3 className="py-1 m-2 text-bold text-left bottom-0 font-bold text-xl text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">Application Development</h3>
+            <h3 className="py-1 m-2 text-bold text-left bottom-0 font-bold text-xl text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">{item.serviceName}</h3>
             <p className="py-1 m-2 text-gray-500 text-left">
-              Whether you are a small agency or a big one. Our influencer
-              database will help you get better results for your clients.
+            {item.serviceDesc}
             </p>
           </div>
         </SwiperSlide>
-
-        {/* Swiper slide 2 */}
-        <SwiperSlide>
-          <div className="bg-white overflow-hidden border-2 hover:border-purple-400 h-full rounded-2xl hover:scale-110 duration-500">
-            <div className="rounded-full border-2 h-[100px] w-[100px] ml-6 m-8  hover:border-purple-300">
-              <img
-                src={require("../../src/assets/2.png")}
-                className="px-4 py-4"
-                alt="Services"
-              />
-            </div>
-            <h3 className="py-1 m-2 text-bold text-left bottom-0 font-bold text-xl text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">Mobile Application Development</h3>
-            <p className="py-1 m-2 text-gray-500 text-left">
-              Whether you are a small agency or a big one. Our influencer
-              database will help you get better results for your clients.
-            </p>
-          </div>
-        </SwiperSlide>
-
-        {/* Swiper slide 3 */}
-
-        <SwiperSlide>
-          <div className=" bg-white overflow-hidden border-2 hover:border-purple-400 h-full rounded-2xl hover:scale-110 duration-500">
-            <div className="rounded-full border-2 h-[100px] w-[100px] ml-6 m-8  hover:border-purple-300">
-              <img
-                src={require("../../src/assets/5.png")}
-                className="px-4 py-6"
-                alt="Services"
-              />
-            </div>
-            <h3 className="py-1 m-2 text-bold text-left bottom-0 font-bold text-xl text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">Web Design & Development</h3>
-            <p className="py-1 m-2 text-gray-500 text-left">
-              Whether you are a small agency or a big one. Our influencer
-              database will help you get better results for your clients.
-            </p>
-          </div>
-        </SwiperSlide>
-
-        {/* Swiper slide 4 */}
-        <SwiperSlide>
-          <div className=" bg-white overflow-hidden border-2 hover:border-purple-400 h-full rounded-2xl hover:scale-110 duration-500">
-            <div className="rounded-full border-2 h-[100px] w-[100px] ml-6 m-8  hover:border-purple-300">
-              <img
-                src={require("../../src/assets/3.png")}
-                className="px-4 py-4"
-                alt="Services"
-              />
-            </div>
-            <h3 className="py-1 m-2 text-bold text-left bottom-0 font-bold text-xl text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">Software Testing Services</h3>
-            <p className="py-1 m-2 text-gray-500 text-left">
-              Whether you are a small agency or a big one. Our influencer
-              database will help you get better results for your clients.
-            </p>
-          </div>
-        </SwiperSlide>
-
-        {/* Swiper slide 5 */}
-        <SwiperSlide>
-          <div className=" bg-white overflow-hidden border-2 hover:border-purple-400 h-full rounded-2xl hover:scale-110 duration-500">
-            <div className="rounded-full border-2 h-[100px] w-[100px] ml-6 m-8  hover:border-purple-300">
-              <img
-                src={require("../../src/assets/4.png")}
-                className="px-4 py-4"
-                alt="Services"
-              />
-            </div>
-            <h3 className="py-1 m-2 text-bold text-left bottom-0 font-bold text-xl text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">Software Testing</h3>
-            <p className="py-1 m-2 text-gray-500 text-left">
-              Whether you are a small agency or a big one. Our influencer
-              database will help you get better results for your clients.
-            </p>
-          </div>
-        </SwiperSlide>
+    ))}
+    
+     
       </Swiper>
     </div>
   );

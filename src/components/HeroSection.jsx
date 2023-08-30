@@ -103,9 +103,9 @@ const HeroSection = () => {
             </div>
         </nav>
         {/* hero section */}
-        <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
-          <img class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center" alt="hero" src={hero} />
-          <div class="text-center lg:w-5/12 w-full">
+        <div className="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
+          <img className="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center" alt="hero" src={hero} />
+          <div className="text-center lg:w-5/12 w-full">
             <h1 className="my-4 text-5xl font-bold leading-tight">
               Turn your designs into production-ready frontend
             </h1>
