@@ -21,6 +21,12 @@ export const Testimonials = () => {
 
   return (
     <>
+             <div className="max-w-[1320px] mx-auto py-20">
+
+<h4 className="text-4xl font-thin text-center  text-black mb-10 font-sans">Why customers love </h4>
+        <h5 className="text-4xl  text-center  font-bold font-sans">working with us</h5>
+</div>
+    <div>
       <Swiper
         style={{
           "--swiper-navigation-color": "purple",
@@ -103,8 +109,9 @@ export const Testimonials = () => {
           </SwiperSlide>
         ))}
         ;
-      </Swiper>
+      </Swiper></div>
     </>
+    
   );
 };
 export default Testimonials;

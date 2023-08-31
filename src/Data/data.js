@@ -10,6 +10,13 @@ import Service2 from '../assets/2.png'
 import Service3 from '../assets/3.png'
 import Service4 from '../assets/4.png'
 import Service5 from '../assets/5.png'
+import BrandImg from '../assets/logo1.png'
+import BrandImg1 from '../assets/logo2.png'
+import BrandImg2 from '../assets/logo3.png'
+import BrandImg3 from '../assets/logo4.png'
+import BrandImg4 from '../assets/logo5.png'
+import BrandImg5 from '../assets/logo6.png'
+import BrandImg6 from '../assets/logo7.png'
 
 
 export const data = [
@@ -95,5 +102,24 @@ export const services = [
     serviceDesc:"Whether you are a small agency or a big one. Our influencer database will help you get better results for your clients.",
 
     Image:Service5
+  },
+]
+
+export const brands=[
+  {
+    Image:BrandImg
+  },
+  {
+    Image:BrandImg1
+  },  {
+    Image:BrandImg2
+  },  {
+    Image:BrandImg3
+  },  {
+    Image:BrandImg4
+  },  {
+    Image:BrandImg5
+  },  {
+    Image:BrandImg6
   },
 ]
