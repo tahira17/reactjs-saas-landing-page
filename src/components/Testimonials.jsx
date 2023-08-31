@@ -21,10 +21,10 @@ export const Testimonials = () => {
 
   return (
     <>
-             <div className="max-w-[1320px] mx-auto py-20">
+             <div className="max-w-[1320px] mx-auto pt-20">
 
-<h4 className="text-4xl font-thin text-center  text-black mb-10 font-sans">Why customers love </h4>
-        <h5 className="text-4xl  text-center  font-bold font-sans">working with us</h5>
+<h4 className="text-4xl font-thin text-center  text-black mb-10 ">Why customers love </h4>
+        <h5 className="text-4xl  text-center  font-bold">working with us</h5>
 </div>
     <div>
       <Swiper

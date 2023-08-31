@@ -10,7 +10,7 @@ const Information = () => {
           <div data-aos="zoom-in" className="items-center">
 
             <div className="mt-24 lg:m-auto lg:mt-12 lg:ml-10 lg:mr-10">
-            <hr class="w-48 h-1 lg:w-48 lg:h-1 md:w-48 md:h-1 sm:w-48 sm:h-1 my-4 bg-purple-800 border-0 rounded md:my-10 dark:bg-gray-700" />
+            <hr class="w-48 h-1 lg:w-48 lg:h-1 md:w-48 md:h-1 sm:w-48 sm:h-1 my-4 bg-purple-800 border-0 rounded md:my-10 " />
             <h4 className="text-4xl font-thin">Leading companies trust us </h4>
             <h5 className="text-4xl font-bold">to develop</h5>
             </div>
@@ -31,10 +31,10 @@ const Information = () => {
 
           {/* right section */}
 
-          <div class="aspect-w-16 aspect-h-9 rounded-2xl lg:w-[450px] lg:h-[400px] md:w-[350px] md:h-[300px] sm:w-[250px] h-[200px] w-[250px] sm:h-[200px] lg:mt-10 lg:ml-10 md:my-auto md:ml-18 sm:my-auto sm:ml-0 relative border-2 mt-0 mr-16 ml-20">
+          <div class="aspect-w-16 aspect-h-9 rounded-2xl lg:w-[440px] lg:h-[400px] md:w-[350px] md:h-[300px] sm:w-[250px] h-[250px] w-[300px] sm:h-[200px] lg:mt-10 lg:ml-10 md:my-auto md:ml-18 sm:my-auto sm:ml-0 relative border-2 mt-0 mr-16 ml-10">
             <iframe
           
-              class="bg-red-900 rounded-2xl mb-10 shadow-2xl absolute top-0 left-0 w-[100%] h-[100%]"
+              class=" rounded-2xl mb-10 shadow-2xl absolute top-0 left-0 w-[100%] h-[100%]"
               src="https://www.youtube.com/embed/Jj4sfry-wYw?controls=1&enablejsapi=1&showinfo=0"
               frameborder="0"
               allow="autoplay; fullscreen; picture-in-picture"
