@@ -16,7 +16,7 @@ export const Services = () => {
 const Services=services
 
   return (
-    <div className='bg-slate-100 h-[700px]'>
+    <div name="services" className='bg-slate-100 h-[700px]'>
      <div className="max-w-[1320px] mx-auto">
     <h1 className="text-4xl text-center py-20 text-black font-bold">Services we Offer</h1>
   </div>
@@ -64,7 +64,7 @@ const Services=services
                 alt="Services"
               />
             </div>
-            <h3 className="py-1 m-2 text-bold text-left bottom-0 font-bold text-xl text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">{item.serviceName}</h3>
+            <h3 className="py-1 m-2 text-bold text-left bottom-0 font-bold text-xl text-transparent bg-clip-text bg-gradient-to-r from-purple-900 via-purple-700 to-pink-700">{item.serviceName}</h3>
             <p className="py-1 m-2 text-gray-500 text-left">
             {item.serviceDesc}
             </p>

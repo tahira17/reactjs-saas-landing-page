@@ -67,7 +67,7 @@ export const Testimonials = () => {
                     <img src={Commas} alt="" />
                   </div>
 
-                  <p className="flex h-3/4 w-3/4 z-0 relative mx-auto mt-40 sm:mt-10 md:mt-10 lg:mt-10 items-center justify-center  rounded-2xl text-gray-500">                    {item.Testimonial}
+                  <p className="flex h-3/4 w-3/4 z-0 relative mx-auto mt-40 sm:mt-10 md:mt-10 lg:mt-10 items-center justify-center text-3xl font-sans rounded-2xl text-black"> {item.Testimonial}
                   </p>
                 </div>
               </div>

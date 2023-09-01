@@ -9,7 +9,7 @@ const Brands = () => {
             {/* left section */}
             <div data-aos="zoom-in" className="items-center">
               <div className="mt-24 mb-20 lg:mb-20 md:mb-20 lg:m-auto lg:mt-12 lg:ml-10 lg:mr-10">
-                <hr class="w-28 h-1 lg:w-48 lg:h-1 md:w-48 md:h-1 sm:w-48 sm:h-1 my-4 bg-purple-800 border-0 rounded md:my-10 " />
+                <hr class="w-28 h-1 lg:w-48 lg:h-1 md:w-48 md:h-1 sm:w-48 sm:h-1 my-4 bg-gradient-to-r from-purple-900 via-purple-700 to-pink-700 border-0 rounded md:my-10 " />
                 <h4 className="text-4xl font-thin">Meet the people </h4>
                 <h5 className="text-4xl font-bold">We are Working with</h5>
               </div>

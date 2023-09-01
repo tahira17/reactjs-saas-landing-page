@@ -10,7 +10,7 @@ const Information = () => {
           <div data-aos="zoom-in" className="items-center">
 
             <div className="mt-24 lg:m-auto lg:mt-12 lg:ml-10 lg:mr-10">
-            <hr class="w-48 h-1 lg:w-48 lg:h-1 md:w-48 md:h-1 sm:w-48 sm:h-1 my-4 bg-purple-800 border-0 rounded md:my-10 " />
+            <hr class="w-48 h-1 lg:w-48 lg:h-1 md:w-48 md:h-1 sm:w-48 sm:h-1 my-4 bg-gradient-to-r from-purple-900 via-purple-700 to-pink-700 border-0 rounded md:my-10 " />
             <h4 className="text-4xl font-thin">Leading companies trust us </h4>
             <h5 className="text-4xl font-bold">to develop</h5>
             </div>

@@ -1,4 +1,6 @@
 import React , { useState } from 'react'
+import { Link } from "react-scroll";
+
 import hero from '../assets/Hero.png'
 
 
@@ -16,8 +18,8 @@ const HeroSection = () => {
             <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                 <div>
                     <div className="flex items-center justify-between py-3 md:py-5 sm:py-2 md:block">
-                    // eslint-disable-next-line
-                        <a href="/">
+                 
+                        <a >
                             <h2 className="text-2xl font-bold text-white">LOGO</h2>
                         </a>
                         <div className="md:hidden">
@@ -59,26 +61,35 @@ const HeroSection = () => {
                     </div>
                 </div>
                 <div>
-                    <div
+                    <div name="about"
                         className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
                             navbar ? "block" : "hidden"
                         }`}
                     >
                         <ul className="items-center justify-center space-y-8 md:flex md:space-x-2 sm:space-x-0 sm:space-y-0 md:space-y-0">
                             <li className="text-white hover:text-indigo-200">
-                                <a href='/'> About Us</a>
+
+                            <Link to="about" smooth={true} duration={500}>
+                            About Us
+                  </Link>
+                               
                             </li>
                             <li className="text-white hover:text-indigo-200">
-                                <a>Services</a>
+                            <Link to="services" smooth={true} duration={500}>
+                            Services
+                  </Link>
                             </li>
                             <li className="text-white hover:text-indigo-200">
-                                <a href>Case Studies</a>
+                            <Link to="caseStudies" smooth={true} duration={500}>
+                            Case Studies
+                  </Link>
+                               
                             </li>
                             <li className="text-white hover:text-indigo-200">
-                                <a href>Blog</a>
+                                <a >Blog</a>
                             </li>
                             <li className="text-white hover:text-indigo-200">
-                                <a href>How it Works</a>
+                                <a >How it Works</a>
                             </li>
                             <li className="text-white hover:text-indigo-200">
                                 <a>Hire</a>
