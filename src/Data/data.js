@@ -10,13 +10,7 @@ import Service2 from '../assets/2.png'
 import Service3 from '../assets/3.png'
 import Service4 from '../assets/4.png'
 import Service5 from '../assets/5.png'
-import BrandImg from '../assets/logo1.png'
-import BrandImg1 from '../assets/logo2.png'
-import BrandImg2 from '../assets/logo3.png'
-import BrandImg3 from '../assets/logo4.png'
-import BrandImg4 from '../assets/logo5.png'
-import BrandImg5 from '../assets/logo6.png'
-import BrandImg6 from '../assets/logo7.png'
+
 
 
 export const data = [
@@ -25,7 +19,7 @@ export const data = [
     name: "puel",
     Profession: "Engineer",
     Testimonial:
-      "Hi ,Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec arcu mi, gravida efficitur libero suscipit, malesuada tincidunt odio. Cras sed leo sit amet magna feugiat varius. Pellentesque sit amet felis a velit maximus tincidunt at nec mi. Vestibulum fermentum condimentum erat, vel hendrerit augue tempor quis. Suspendisse quis elit eu tellus convallis volutpat. Vivamus ac feugiat lacus, quis consequat lectus. Proin pellentesque rhoncus condimentum. ",
+      "Hi ,Lorem ipsum dolor sit ametgna feugiat varius. Pellentesque sit amet felis a velit maximus tincidunt at nec mi. Vestibulum fermentum condimentum erat, vel hendrerit augue tempor quis. Suspendisse quis elit eu tellus convallis volutpat. Vivamus ac feugiat lacus, quis consequat lectus. Proin pellentesque rhoncus condimentum. ",
     Image: Img,
     Rating:Stars
   },
@@ -34,7 +28,7 @@ export const data = [
     name: "puel",
     Profession: "Engineer",
     Testimonial:
-      "2nd Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec arcu mi, gravida efficitur libero suscipit, malesuada tincidunt odio. Cras sed leo sit amet magna feugiat varius. Pellentesque sit amet felis a velit maximus tincidunt at nec mi. Vestibulum fermentum condimentum erat, vel hendrerit augue tempor quis. Suspendisse quis elit eu tellus convallis volutpat. Vivamus ac feugiat lacus, quis consequat lectus. Proin pellentesque rhoncus condimentum. ",
+      "2nd Loremero suscipit, malesuada tincidunt odio. Cras sed leo sit amet magna feu felis a velit maximus tincidunt at nec mi. Vestibulum fermentum condimentum erat, vel hendrerit augue tempor quis. Suspendisse quis elit eu tellus convallis volutpat. Vivamus ac feugiat lacus, quis consequat lectus. Proin pellentesque rhoncus condimentum. ",
     Image: Img2,
     Rating:Stars
 
@@ -44,7 +38,7 @@ export const data = [
     name: "puel",
     Profession: "Engineer",
     Testimonial:
-      "3rd ...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec arcu mi, gravida efficitur libero suscipit, malesuada tincidunt odio. Cras sed leo sit amet magna feugiat varius. Pellentesque sit amet felis a velit maximus tincidunt at nec mi. Vestibulum fermentum condimentum erat, vel hendrerit augue tempor quis. Suspendisse quis elit eu tellus convallis volutpat. Vivamus ac feugiat lacus, quis consequat lectus. Proin pellentesque rhoncus condimentum.",
+      "3rd ...Lorem uada tincidunt odio. Cras sed leo sit amet magna feugiat t at nec mi. Vestibulum fermentum condimentum erat, vel hendrerit augue tempor quis. Suspendisse quis elit eu tellus convallis volutpat. Vivamus ac feugiat lacus, quis consequat lectus. Proin pellentesque rhoncus condimentum.",
     Image: Img3,
     Rating:Stars
 
@@ -54,7 +48,7 @@ export const data = [
     name: "puel",
     Profession: "Engineer",
     Testimonial:
-      "4th...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec arcu mi, gravida efficitur libero suscipit, malesuada tincidunt odio. Cras sed leo sit amet magna feugiat varius. Pellentesque sit amet felis a velit maximus tincidunt at nec mi. Vestibulum fermentum condimentum erat, vel hendrerit augue tempor quis. Suspendisse quis elit eu tellus convallis volutpat. Vivamus ac feugiat lacus, quis consequat lectus. Proin pellentesque rhoncus condimentum.",
+      "4th...Lorem ipsum dolor sit amet, s condimentum.",
     Image: Img4,
     Rating:Stars
 
@@ -105,21 +99,3 @@ export const services = [
   },
 ]
 
-export const brands=[
-  {
-    Image:BrandImg
-  },
-  {
-    Image:BrandImg1
-  },  {
-    Image:BrandImg2
-  },  {
-    Image:BrandImg3
-  },  {
-    Image:BrandImg4
-  },  {
-    Image:BrandImg5
-  },  {
-    Image:BrandImg6
-  },
-]

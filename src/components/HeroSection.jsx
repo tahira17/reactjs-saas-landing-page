@@ -16,7 +16,8 @@ const HeroSection = () => {
             <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                 <div>
                     <div className="flex items-center justify-between py-3 md:py-5 sm:py-2 md:block">
-                        <a>
+                    // eslint-disable-next-line
+                        <a href="/">
                             <h2 className="text-2xl font-bold text-white">LOGO</h2>
                         </a>
                         <div className="md:hidden">
@@ -65,19 +66,19 @@ const HeroSection = () => {
                     >
                         <ul className="items-center justify-center space-y-8 md:flex md:space-x-2 sm:space-x-0 sm:space-y-0 md:space-y-0">
                             <li className="text-white hover:text-indigo-200">
-                                <a>About Us</a>
+                                <a href='/'> About Us</a>
                             </li>
                             <li className="text-white hover:text-indigo-200">
                                 <a>Services</a>
                             </li>
                             <li className="text-white hover:text-indigo-200">
-                                <a>Case Studies</a>
+                                <a href>Case Studies</a>
                             </li>
                             <li className="text-white hover:text-indigo-200">
-                                <a>Blog</a>
+                                <a href>Blog</a>
                             </li>
                             <li className="text-white hover:text-indigo-200">
-                                <a>How it Works</a>
+                                <a href>How it Works</a>
                             </li>
                             <li className="text-white hover:text-indigo-200">
                                 <a>Hire</a>

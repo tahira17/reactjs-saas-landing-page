@@ -93,3 +93,28 @@ body {
   height: 50px;
   margin: 0 40px;
 }
+
+
+
+.testimonialSwiper .swiper-slide {
+  width: 25%;
+  height: 100%;
+}
+
+.mySwiper .swiper-slide-thumb-active {
+  opacity: 1;
+}
+
+.testimonialSwiper2 {
+margin-top: 0%;
+
+}
+.testimonialSwiper2 .swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 0.4;
+}
+
+.testimonialSwiper2 .swiper-slide-thumb-active {
+  opacity: 1;
+}
