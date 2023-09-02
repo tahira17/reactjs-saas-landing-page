@@ -133,3 +133,55 @@ export const casestudies = [
 
   },
 ];
+
+
+export const timeline = [
+  {
+    id: 1,
+    stepNo:"1",
+    timeLineHeading: "Assemble the right team",
+    timeLineDesc:
+      "We handle all aspects of vetting and choosing the right team that you don't have the time , expertise, or desire to do .",
+   
+  },
+  {
+    id: 1,
+    stepNo:"2",
+    timeLineHeading: "Sprint planning",
+    timeLineDesc:"Sprint roadmap is a collective planning effort. Team members collaborate to clarify items and ensure shared understanding."
+  },
+  {
+    id: 2,
+    stepNo:"3",
+    timeLineHeading: "Team architecture ",
+    timeLineDesc: "We break monolithic apps into microservices. Decoupling the code allows teams to move faster and more independently ."
+
+
+
+  },
+
+];
+
+export const timeline2 = [
+ 
+  {
+    id: 2,
+    stepNo:"4",
+    timeLineHeading: "Standups & weekly demos",
+    timeLineDesc: "Standups, weekly demos, and weekly reviews make sure everyone is on the same page and can raise their concerns."
+
+
+  },
+  {
+    id: 3,
+    stepNo:"5",
+    timeLineHeading: "Code reviews",
+    timeLineDesc: "Code reviews before release help detect issues like memory leaks, file leaks, performance signs, and general bad smells ."
+  },
+  {
+    id: 3,
+    stepNo:"6",
+    timeLineHeading: "Iterative delivery",
+    timeLineDesc: "We divide the implementation process into several checkpoints rather than a single deadline."
+  },
+];

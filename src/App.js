@@ -1,4 +1,5 @@
 import "./App.css";
+import { TimeLine } from "./components/TimeLine";
 import CaseStudies from "./components/CaseStudies";
 import Brands from "./components/Brands";
 import HeroSection from './components/HeroSection';
@@ -17,6 +18,8 @@ function App() {
     
 <CaseStudies />
 
+
+<TimeLine />
     </div>
   );
 }
