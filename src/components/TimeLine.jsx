@@ -11,7 +11,7 @@ export const TimeLine = () => {
 
   return (
 <>
-<div name="caseStudies" className="max-w-full mx-auto pt-10">
+<div name="timeLine" className="max-w-full mx-auto pt-10">
 <hr class="w-20 h-1 mx-auto bg-gradient-to-r from-purple-900 via-purple-700 to-pink-700 border-0 rounded mb-4 " />
 
         <h4 className="text-4xl font-thin text-center  text-black mb-4 ">

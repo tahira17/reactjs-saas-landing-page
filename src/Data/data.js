@@ -15,6 +15,24 @@ import caseStudy1 from "../assets/CS1.png";
 import caseStudy2 from "../assets/CaseStudy2.svg";
 import caseStudy3 from "../assets/CaseStudy3.svg";
 
+import Bg1 from "../assets/Rectangle1.svg";
+import Logo1 from "../assets/developApp1.svg";
+
+import Bg2 from "../assets/Rectangle2.svg";
+import Logo2 from '../assets/developApp2.svg'
+
+import Bg3 from "../assets/Rectangle3.svg";
+import Logo3 from '../assets/developApp3.svg'
+
+import Bg4 from "../assets/Rectangle4.svg";
+import Logo4 from '../assets/developApp4.svg'
+
+import Bg5 from "../assets/Rectangle5.svg";
+import Logo5 from '../assets/developApp5.svg'
+
+import Bg6 from "../assets/Rectangle6.svg";
+import Logo6 from '../assets/developApp6.svg'
+
 export const data = [
   {
     id: 1,
@@ -110,78 +128,126 @@ export const casestudies = [
     caseStudyDesc:
       "Born out of a vision, a single-minded objective that puts service before anything else, Swift Clearance and Forwarding Corp. surging forth to deliver the best services in the shipping and logistics scenario. Its meteoric rise stems out of a solid foundation. The management boasts of over 20 years of rich and varied experience in the shipping and freight forwarding industry.",
     Image: caseStudy1,
-    color:'#F5EEF8'
+    color: "#F5EEF8",
   },
   {
     id: 2,
     caseStudyHeading: "Website Design for SCFC Canada ",
-    caseStudyDesc: 
-    "Born out of a vision, a single-minded objective that puts service before anything else, Swift Clearance and Forwarding Corp. surging forth to deliver the best services in the shipping and logistics scenario. Its meteoric rise stems out of a solid foundation. The management boasts of over 20 years of rich and varied experience in the shipping and freight forwarding industry.",
+    caseStudyDesc:
+      "Born out of a vision, a single-minded objective that puts service before anything else, Swift Clearance and Forwarding Corp. surging forth to deliver the best services in the shipping and logistics scenario. Its meteoric rise stems out of a solid foundation. The management boasts of over 20 years of rich and varied experience in the shipping and freight forwarding industry.",
 
     Image: caseStudy2,
-    color:'#D1F2EB'
-
+    color: "#D1F2EB",
   },
   {
     id: 3,
     caseStudyHeading: "Website Design for SCFC Canada ",
     caseStudyDesc:
-    "Born out of a vision, a single-minded objective that puts service before anything else, Swift Clearance and Forwarding Corp. surging forth to deliver the best services in the shipping and logistics scenario. Its meteoric rise stems out of a solid foundation. The management boasts of over 20 years of rich and varied experience in the shipping and freight forwarding industry.",
+      "Born out of a vision, a single-minded objective that puts service before anything else, Swift Clearance and Forwarding Corp. surging forth to deliver the best services in the shipping and logistics scenario. Its meteoric rise stems out of a solid foundation. The management boasts of over 20 years of rich and varied experience in the shipping and freight forwarding industry.",
 
     Image: caseStudy3,
-    color:'#FDEDEC'
-
+    color: "#FDEDEC",
   },
 ];
-
 
 export const timeline = [
   {
     id: 1,
-    stepNo:"1",
+    stepNo: "1",
     timeLineHeading: "Assemble the right team",
     timeLineDesc:
       "We handle all aspects of vetting and choosing the right team that you don't have the time , expertise, or desire to do .",
-   
   },
   {
     id: 1,
-    stepNo:"2",
+    stepNo: "2",
     timeLineHeading: "Sprint planning",
-    timeLineDesc:"Sprint roadmap is a collective planning effort. Team members collaborate to clarify items and ensure shared understanding."
+    timeLineDesc:
+      "Sprint roadmap is a collective planning effort. Team members collaborate to clarify items and ensure shared understanding.",
   },
   {
     id: 2,
-    stepNo:"3",
+    stepNo: "3",
     timeLineHeading: "Team architecture ",
-    timeLineDesc: "We break monolithic apps into microservices. Decoupling the code allows teams to move faster and more independently ."
-
-
-
+    timeLineDesc:
+      "We break monolithic apps into microservices. Decoupling the code allows teams to move faster and more independently .",
   },
-
 ];
 
 export const timeline2 = [
- 
   {
     id: 2,
-    stepNo:"4",
+    stepNo: "4",
     timeLineHeading: "Standups & weekly demos",
-    timeLineDesc: "Standups, weekly demos, and weekly reviews make sure everyone is on the same page and can raise their concerns."
-
-
+    timeLineDesc:
+      "Standups, weekly demos, and weekly reviews make sure everyone is on the same page and can raise their concerns.",
   },
   {
     id: 3,
-    stepNo:"5",
+    stepNo: "5",
     timeLineHeading: "Code reviews",
-    timeLineDesc: "Code reviews before release help detect issues like memory leaks, file leaks, performance signs, and general bad smells ."
+    timeLineDesc:
+      "Code reviews before release help detect issues like memory leaks, file leaks, performance signs, and general bad smells .",
   },
   {
     id: 3,
-    stepNo:"6",
+    stepNo: "6",
     timeLineHeading: "Iterative delivery",
-    timeLineDesc: "We divide the implementation process into several checkpoints rather than a single deadline."
+    timeLineDesc:
+      "We divide the implementation process into several checkpoints rather than a single deadline.",
+  },
+];
+
+export const developmentApproach = [
+  {
+    id: 1,
+    developAppHeading: "UX Driven Engineering",
+    developAppDesc:
+      "Unlike other companies, we are a UX first development company. Projects are driven by designers and they make sure design and experiences translate to code.",
+    developAppBg: Bg1,
+    developAppLogo: Logo1,
+  },
+  {
+    id: 2,
+
+    developAppHeading: "Proven Experience and Expertise",
+    developAppDesc:
+      "Unlike other companies, we are a UX first development company. Projects are driven by designers and they make sure design and experiences translate to code.",
+
+    developAppBg: Bg2,
+    developAppLogo: Logo2,
+  },
+  {
+    id: 3,
+    developAppHeading: "Iterative delivery",
+    developAppDesc:"Unlike other companies, we are a UX first development company. Projects are driven by designers and they make sure design and experiences translate to code.",
+    developAppBg: Bg3,
+    developAppLogo: Logo3,
+  },
+  {
+    id: 4,
+    developAppHeading: "UX Driven Engineering",
+    developAppDesc:
+      "Unlike other companies, we are a UX first development company. Projects are driven by designers and they make sure design and experiences translate to code.",
+    developAppBg: Bg4,
+    developAppLogo: Logo4,
+  },
+  {
+    id: 5,
+
+    developAppHeading: "Proven Experience and Expertise",
+    developAppDesc:
+      "Unlike other companies, we are a UX first development company. Projects are driven by designers and they make sure design and experiences translate to code.",
+
+    developAppBg: Bg5,
+    developAppLogo: Logo5,
+  },
+  {
+    id: 6,
+
+    developAppHeading: "Quality Assurance & Testing",
+    developAppDesc:"Unlike other companies, we are a UX first development company. Projects are driven by designers and they make sure design and experiences translate to code.",
+    developAppBg: Bg6,
+    developAppLogo: Logo6,
   },
 ];
