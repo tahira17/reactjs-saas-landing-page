@@ -1,27 +1,29 @@
 import "./App.css";
+import SoftwareBuilding from "./components/SoftwareBuilding";
 import DevelopmentApproach from "./components/DevelopmentApproach";
 import { TimeLine } from "./components/TimeLine";
-// import CaseStudies from "./components/CaseStudies";
-// import Brands from "./components/Brands";
-// import HeroSection from './components/HeroSection';
-// import Information from "./components/Information";
-// import Services from './components/Services';
-// import Testimonials from './components/Testimonials';
+import CaseStudies from "./components/CaseStudies";
+import Brands from "./components/Brands";
+import HeroSection from './components/HeroSection';
+import Information from "./components/Information";
+import Services from './components/Services';
+import Testimonials from './components/Testimonials';
 
 function App() {
   return (
-    <div>
-      {/* <HeroSection />
+    <div >
+       <HeroSection />
       <Services />
       <Information />
-      <Brands />
+     <Brands />
       <Testimonials />
       <CaseStudies />
-      <TimeLine /> */}
-
-      <DevelopmentApproach />
+     
+      <SoftwareBuilding />
+    <DevelopmentApproach />
       <TimeLine />
-    </div>
+
+</div>
   );
 }
 
