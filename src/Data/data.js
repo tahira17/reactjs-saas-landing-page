@@ -36,34 +36,34 @@ import Logo6 from '../assets/developApp6.svg'
 export const data = [
   {
     id: 1,
-    name: "puel",
+    name: "puel1",
     Profession: "Engineer",
     Testimonial:
-      "Hi ,Lorem ipsum dolor sit ametgna feugiat varius. Pellentesque sit amet felis a velit maximus tincidunt at nec mi. Vestibulum fermentum condimentum erat, vel hendrerit augue tempor quis. Suspendisse quis elit eu tellus convallis volutpat. Vivamus ac feugiat lacus, quis consequat lectus. Proin pellentesque rhoncus condimentum. ",
+      "Hi ,Lorem augue te feugiat lacus, quis consequat lectus. Proin pellentesque rhoncus condimentum. ",
     Image: Img,
     Rating: Stars,
   },
   {
     id: 2,
-    name: "puel",
+    name: "puel2",
     Profession: "Engineer",
     Testimonial:
-      "2nd Loremero suscipit, malesuada tincidunt odio. Cras sed leo sit amet magna feu felis a velit maximus tincidunt at nec mi. Vestibulum fermentum condimentum erat, vel hendrerit augue tempor quis. Suspendisse quis elit eu tellus convallis volutpat. Vivamus ac feugiat lacus, quis consequat lectus. Proin pellentesque rhoncus condimentum. ",
+      "2nd Loremero suscipit, madrerit augue tempor quis. Suspendisse quis elit eu tellus convallis volutpat. Vivamus ac feugiat lacus, quis consequat lectus. Proin pellentesque rhoncus condimentum. ",
     Image: Img2,
     Rating: Stars,
   },
   {
     id: 3,
-    name: "puel",
+    name: "puel3",
     Profession: "Engineer",
     Testimonial:
-      "3rd ...Lorem uada tincidunt odio. Cras sed leo sit amet magna feugiat t at nec mi. Vestibulum fermentum condimentum erat, vel hendrerit augue tempor quis. Suspendisse quis elit eu tellus convallis volutpat. Vivamus ac feugiat lacus, quis consequat lectus. Proin pellentesque rhoncus condimentum.",
+      "3rd ..um erat, vel hendrerit augue tempor quis. Suspendisse quis elit eu tellus convallis volutpat. Vivamus ac feugiat lacus, quis consequat lectus. Proin pellentesque rhoncus condimentum.",
     Image: Img3,
     Rating: Stars,
   },
   {
     id: 4,
-    name: "puel",
+    name: "puel4",
     Profession: "Engineer",
     Testimonial: "4th...Lorem ipsum dolor sit amet, s condimentum.",
     Image: Img4,
@@ -71,10 +71,10 @@ export const data = [
   },
   {
     id: 4,
-    name: "puel",
+    name: "puel5",
     Profession: "Engineer",
     Testimonial:
-      "4th...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec arcu mi, gravida efficitur libero suscipit, malesuada tincidunt odio. Cras sed leo sit amet magna feugiat varius. Pellentesque sit amet felis a velit maximus tincidunt at nec mi. Vestibulum fermentum condimentum erat, vel hendrerit augue tempor quis. Suspendisse quis elit eu tellus convallis volutpat. Vivamus ac feugiat lacus, quis consequat lectus. Proin pellentesque rhoncus condimentum.",
+      "4th...imentum erat, vel hendrerit augue tempor quis. Suspendisse quis elillentesque rhoncus condimentum.",
     Image: Img5,
     Rating: Stars,
   },
@@ -159,6 +159,25 @@ export const timeline = [
       "We handle all aspects of vetting and choosing the right team that you don't have the time , expertise, or desire to do .",
   },
   {
+    id: 2,
+    stepNo: "3",
+    timeLineHeading: "Team architecture ",
+    timeLineDesc:
+      "We break monolithic apps into microservices. Decoupling the code allows teams to move faster and more independently .",
+  },
+  
+  {
+    id: 3,
+    stepNo: "5",
+    timeLineHeading: "Code reviews",
+    timeLineDesc:
+      "Code reviews before release help detect issues like memory leaks, file leaks, performance signs, and general bad smells .",
+  },
+
+];
+
+export const timeline2 = [
+  {
     id: 1,
     stepNo: "2",
     timeLineHeading: "Sprint planning",
@@ -167,30 +186,61 @@ export const timeline = [
   },
   {
     id: 2,
+    stepNo: "4",
+    timeLineHeading: "Standups & weekly demos",
+    timeLineDesc:
+      "Standups, weekly demos, and weekly reviews make sure everyone is on the same page and can raise their concerns.",
+  },
+
+  {
+    id: 3,
+    stepNo: "6",
+    timeLineHeading: "Iterative delivery",
+    timeLineDesc:
+      "We divide the implementation process into several checkpoints rather than a single deadline.",
+  },
+];
+export const timelineforsmallerscreen = [
+  {
+    id: 1,
+    stepNo: "1",
+    timeLineHeading: "Assemble the right team",
+    timeLineDesc:
+      "We handle all aspects of vetting and choosing the right team that you don't have the time , expertise, or desire to do .",
+  },
+  {
+    id: 2,
+    stepNo: "2",
+    timeLineHeading: "Sprint planning",
+    timeLineDesc:
+      "Sprint roadmap is a collective planning effort. Team members collaborate to clarify items and ensure shared understanding.",
+  },
+
+  {
+    id: 3,
     stepNo: "3",
     timeLineHeading: "Team architecture ",
     timeLineDesc:
       "We break monolithic apps into microservices. Decoupling the code allows teams to move faster and more independently .",
   },
-];
 
-export const timeline2 = [
   {
-    id: 2,
+    id: 4,
     stepNo: "4",
     timeLineHeading: "Standups & weekly demos",
     timeLineDesc:
       "Standups, weekly demos, and weekly reviews make sure everyone is on the same page and can raise their concerns.",
   },
   {
-    id: 3,
+    id: 5,
     stepNo: "5",
     timeLineHeading: "Code reviews",
     timeLineDesc:
       "Code reviews before release help detect issues like memory leaks, file leaks, performance signs, and general bad smells .",
   },
+
   {
-    id: 3,
+    id: 6,
     stepNo: "6",
     timeLineHeading: "Iterative delivery",
     timeLineDesc:
