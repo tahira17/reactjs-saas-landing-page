@@ -1,4 +1,7 @@
 import "./App.css";
+import { QuestionSection } from "./components/QuestionSection";
+import { Footer } from "./components/Footer";
+
 import SoftwareBuilding from "./components/SoftwareBuilding";
 import DevelopmentApproach from "./components/DevelopmentApproach";
 import { TimeLine } from "./components/TimeLine";
@@ -22,6 +25,9 @@ function App() {
       <SoftwareBuilding />
     <DevelopmentApproach />
       <TimeLine />
+
+<QuestionSection />
+<Footer />
 
 </div>
   );
