@@ -19,20 +19,27 @@ import Bg1 from "../assets/Rectangle1.svg";
 import Logo1 from "../assets/developApp1.svg";
 
 import Bg2 from "../assets/Rectangle2.svg";
-import Logo2 from '../assets/developApp2.svg'
+import Logo2 from "../assets/developApp2.svg";
 
 import Bg3 from "../assets/Rectangle3.svg";
-import Logo3 from '../assets/developApp3.svg'
+import Logo3 from "../assets/developApp3.svg";
 
 import Bg4 from "../assets/Rectangle4.svg";
-import Logo4 from '../assets/developApp4.svg'
+import Logo4 from "../assets/developApp4.svg";
 
 import Bg5 from "../assets/Rectangle5.svg";
-import Logo5 from '../assets/developApp5.svg'
+import Logo5 from "../assets/developApp5.svg";
 
 import Bg6 from "../assets/Rectangle6.svg";
-import Logo6 from '../assets/developApp6.svg'
+import Logo6 from "../assets/developApp6.svg";
 
+import nodejs from "../assets/NodeJS.svg";
+import php from "../assets/Php.svg";
+import mongodb from "../assets/mongodb.svg";
+import net from '../assets/NETCore.svg'
+import ruby from '../assets/RubyOnRails.svg'
+import java from '../assets/Java.svg'
+import python from '../assets/Python.svg'
 export const data = [
   {
     id: 1,
@@ -165,7 +172,7 @@ export const timeline = [
     timeLineDesc:
       "We break monolithic apps into microservices. Decoupling the code allows teams to move faster and more independently .",
   },
-  
+
   {
     id: 3,
     stepNo: "5",
@@ -173,7 +180,6 @@ export const timeline = [
     timeLineDesc:
       "Code reviews before release help detect issues like memory leaks, file leaks, performance signs, and general bad smells .",
   },
-
 ];
 
 export const timeline2 = [
@@ -270,7 +276,8 @@ export const developmentApproach = [
   {
     id: 3,
     developAppHeading: "Iterative delivery",
-    developAppDesc:"Unlike other companies, we are a UX first development company. Projects are driven by designers and they make sure design and experiences translate to code.",
+    developAppDesc:
+      "Unlike other companies, we are a UX first development company. Projects are driven by designers and they make sure design and experiences translate to code.",
     developAppBg: Bg3,
     developAppLogo: Logo3,
   },
@@ -296,8 +303,45 @@ export const developmentApproach = [
     id: 6,
 
     developAppHeading: "Quality Assurance & Testing",
-    developAppDesc:"Unlike other companies, we are a UX first development company. Projects are driven by designers and they make sure design and experiences translate to code.",
+    developAppDesc:
+      "Unlike other companies, we are a UX first development company. Projects are driven by designers and they make sure design and experiences translate to code.",
     developAppBg: Bg6,
     developAppLogo: Logo6,
+  },
+];
+
+
+export const stack = [
+  {
+    id: 1,
+    Image: nodejs,
+  },
+  {
+    id: 2,
+    Image: php,
+  },
+  {
+    id: 3,
+    Image: mongodb,
+  },
+  {
+    id: 4,
+    Image: net,
+  },
+  {
+    id: 5,
+    Image: ruby,
+  },
+  {
+    id: 6,
+    Image: java,
+  },
+  {
+    id: 7,
+    Image: nodejs,
+  },
+    {
+    id: 8,
+    Image: python,
   },
 ];

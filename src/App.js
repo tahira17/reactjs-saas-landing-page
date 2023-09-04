@@ -1,4 +1,5 @@
 import "./App.css";
+import Stacks from "./components/Stacks";
 import { QuestionSection } from "./components/QuestionSection";
 import { Footer } from "./components/Footer";
 
@@ -24,10 +25,12 @@ function App() {
      
       <SoftwareBuilding />
     <DevelopmentApproach />
+    <Stacks />
       <TimeLine />
 
 <QuestionSection />
 <Footer />
+
 
 </div>
   );

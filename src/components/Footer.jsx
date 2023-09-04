@@ -47,7 +47,7 @@ export const Footer = () => {
             </li>
           </ul>
         </div>
-        <div data-aos="fade-up" data-aos-duration="800" class="lg:ml-40 md:ml-10 sm:ml-30">
+        <div data-aos="fade-up" data-aos-duration="800" class="w-full lg:ml-40 md:ml-10 sm:ml-30">
           <h3 class="font-semibold mb-4">Contact us</h3>
          <p>
          Lorem Ipsum is simply dummy text of the printing and typesetting industry.  
