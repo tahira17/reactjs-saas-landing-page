@@ -32,33 +32,6 @@ const Stacks = () => {
 
           ))}
  
-              {/* <div className='shadow-md shadow-[#27b59f] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' alt="HTML icon" />
-                  <p className='my-4'>CSS</p>
-              </div>
-              <div className='shadow-md shadow-[#27b59f] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto'  alt="HTML icon" />
-                  <p className='my-4'>JAVASCRIPT</p>
-              </div>
-
-              <div className='shadow-md shadow-[#27b59f] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto'  alt="HTML icon" />
-                  <p className='my-4'>REACT</p>
-              </div>
-              <div className='shadow-md shadow-[#27b59f] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto'  alt="HTML icon" />
-                  <p className='my-4'>Vue Js</p>
-              </div>
-              <div className='shadow-md shadow-[#27b59f] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' alt="HTML icon" />
-                  <p className='my-4'>TAILWIND</p>
-              </div>
-              <div className='shadow-md shadow-[#27b59f] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto'  alt="HTML icon" />
-                  <p className='my-4'>GITHUB</p>
-              </div> */}
-    
-            
        
           </div>
       </div>

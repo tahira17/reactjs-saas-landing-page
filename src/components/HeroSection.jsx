@@ -19,7 +19,7 @@ const HeroSection = () => {
                 <div>
                     <div className="flex items-center justify-between py-3 md:py-5 sm:py-2 md:block">
                  
-                        <a >
+                        <a href="/">
                             <h2 className="text-2xl font-bold text-white">LOGO</h2>
                         </a>
                         <div className="md:hidden">
@@ -86,13 +86,13 @@ const HeroSection = () => {
                                
                             </li>
                             <li className="text-white hover:text-indigo-200">
-                                <a >Blog</a>
+                                <a href="/">Blog</a>
                             </li>
                             <li className="text-white hover:text-indigo-200">
-                                <a >How it Works</a>
+                                <a href="/">How it Works</a>
                             </li>
                             <li className="text-white hover:text-indigo-200">
-                                <a>Hire</a>
+                                <a href="/">Hire</a>
                             </li>
                         </ul>
 

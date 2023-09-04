@@ -31,7 +31,7 @@ const CaseStudies = () => {
         </div>
         <div className='max-w-[1000px] w-full grid sm:grid-cols-2 px-4'>
 
-         <img src={item.Image} />
+         <img src={item.Image} alt="" />
         
 
 
