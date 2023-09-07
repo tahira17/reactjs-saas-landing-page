@@ -1,6 +1,6 @@
 import "./App.css";
 import Stacks from "./components/Stacks";
-import { QuestionSection } from "./components/QuestionSection";
+import { HireDeveloperSection } from "./components/HireDeveloperSection";
 import { Footer } from "./components/Footer";
 
 import SoftwareBuilding from "./components/SoftwareBuilding";
@@ -12,8 +12,15 @@ import HeroSection from './components/HeroSection';
 import Information from "./components/Information";
 import Services from './components/Services';
 import Testimonials from './components/Testimonials';
+import { useEffect } from "react";
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 function App() {
+  useEffect(()=>{
+    AOS.init({duration:1600})
+    AOS.refresh();
+  })
   return (
     <div >
        <HeroSection />
@@ -28,7 +35,7 @@ function App() {
     <Stacks />
       <TimeLine />
 
-<QuestionSection />
+<HireDeveloperSection />
 <Footer />
 
 

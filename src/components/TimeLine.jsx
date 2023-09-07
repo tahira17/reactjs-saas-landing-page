@@ -11,7 +11,7 @@ export const TimeLine = () => {
   return (
     <>
       <div className="bg-white">
-        <div name="timeLine" className="max-w-full mx-auto pt-10">
+        <div data-aos="zoom-in" data-aos-duration="800" name="timeLine" className="max-w-full mx-auto pt-10">
           <hr class="w-20 h-1 mx-auto bg-gradient-to-r from-purple-900 via-purple-700 to-pink-700 border-0 rounded mb-4 " />
 
           <h4 className="text-4xl font-thin text-center  text-black mb-4 ">
@@ -23,7 +23,7 @@ export const TimeLine = () => {
         </div>
 
 {/* Upper Grid */}
-        <div class="max-w-[1320px] mt-20 h-full  mx-auto grid  lg:grid-cols-3 md:grid-cols-2 gap-5 px-[20px]">
+        <div data-aos="zoom-in"  data-aos-duration="800" class="max-w-[1320px] mt-20 h-full  mx-auto grid  lg:grid-cols-3 md:grid-cols-2 gap-5 px-[20px]">
           {TimeLine.map((item, index) => (
             <div
               key={index}
@@ -46,10 +46,10 @@ export const TimeLine = () => {
           ))}
         </div>
         
-        <hr class="hidden lg:block lg:w-90 lg:mx-10 xl:w-[80rem] lg:h-[0.24rem] xl:h-[0.24rem] xl:mx-auto md:h-1  bg-gradient-to-r from-orange-300 via-orange-500 to-orange-400 border-0 rounded " />
+        <hr data-aos="zoom-in" data-aos-duration="800" class="hidden lg:block lg:w-90 lg:mx-10 xl:w-[80rem] lg:h-[0.24rem] xl:h-[0.24rem] xl:mx-auto md:h-1  bg-gradient-to-r from-orange-300 via-orange-500 to-orange-400 border-0 rounded " />
 
 {/* Lower Grid */}
-<div class="max-w-[1320px] mt-4 h-full  mx-auto grid  lg:grid-cols-3 md:grid-cols-2 gap-5 px-[20px]">
+<div data-aos="zoom-in" data-aos-duration="800" class="max-w-[1320px] mt-4 h-full  mx-auto grid  lg:grid-cols-3 md:grid-cols-2 gap-5 px-[20px]">
 
 {/* <div class="max-w-[1320] mt-4  h-full xl:bg-blue-600 lg:bg-blue-900 md:bg-blue-200 mx-auto grid  lg:grid-cols-3 md:grid-cols-2 gap-5 px-[20px]">
          */}
@@ -79,7 +79,7 @@ export const TimeLine = () => {
         {/* // SmaLLLER RESOLUTOPNS */}
 
         <div class="flex flex-col  justify-center items-center w-full h-full lg:hidden ">
-          <div class="max-w-[1000px] mx-auto grid lg:grid-cols-3 md:grid-cols-2 gap-5 px-[20px]  items-center mb-10">
+          <div data-aos="zoom-in" data-aos-duration="800" class="max-w-[1000px] mx-auto grid lg:grid-cols-3 md:grid-cols-2 gap-5 px-[20px]  items-center mb-10">
             {TimeLineforSmallerScreen.map((item, index) => (
               <div
                 key={index}

@@ -6,7 +6,7 @@ const DevelopmentApproach = () => {
     const DevelopmentApproach=developmentApproach
   return (
 <>
-    <div name="developmentApproach" className=" bg-slate-100 max-w-full mx-auto pt-10 pb-20">
+    <div data-aos="zoom-in" data-aos-duration="800" name="developmentApproach" className=" bg-slate-100 max-w-full mx-auto pt-10 pb-20">
 <hr class="w-20 h-1 mx-auto bg-gradient-to-r from-purple-900 via-purple-700 to-pink-700 border-0 rounded mb-4 " />
 
         <h4 className="text-4xl font-thin text-center  text-black mb-4 ">
@@ -21,7 +21,7 @@ const DevelopmentApproach = () => {
     class=" max-w-[1320px] h-full mx-auto grid lg:grid-cols-2 md:grid-cols-2 gap-5 "
   >
     {DevelopmentApproach.map((item, index) => (
-    <div  key={index} className=" flex bg-white h-[250px] rounded-md items-center">
+    <div data-aos="flip-right"  key={index} className=" flex bg-white h-[250px] rounded-md items-center">
     <div className=" h-2/3 w-1/3 ml-2 lg:ml-4 lg:mt-6 mt-4 ">
       <img
         src={item.developAppBg}

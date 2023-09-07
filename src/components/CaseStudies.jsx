@@ -29,14 +29,14 @@ const CaseStudies = () => {
 
         </div>
         </div>
-        <div className='max-w-[1000px] w-full grid sm:grid-cols-2 px-4'>
+        <div data-aos="flip-right" className='max-w-[1000px] w-full grid sm:grid-cols-2 px-4'>
 
          <img src={item.Image} alt="" />
         
 
 
 
-          <div data-aos="zoom-in"  style={{ backgroundColor: `${item.color}` }} className='rounded-b-2xl lg:rounded-br-2xl lg:rounded-bl-none lg:rounded-r-2xl md:rounded-r-2xl sm:rounded-r-2xl '>
+          <div   style={{ backgroundColor: `${item.color}` }} className='rounded-b-2xl lg:rounded-br-2xl lg:rounded-bl-none lg:rounded-r-2xl md:rounded-r-2xl sm:rounded-r-2xl '>
             <h2 className='mt-10 lg:mt-10 md:mt-10 sm:mt-2 sm:ml-2 ml-10 lg:ml-10 md:ml-10 text-2xl sm:text-xl font-bold'>{item.caseStudyHeading}</h2>
             <p className='mt-10 lg:mt-10 md:mt-10 sm:mt-2 sm:ml-2 ml-10 lg:ml-10 md:ml-10  mb-10 mr-6'>{item.caseStudyDesc} </p>  
           </div>

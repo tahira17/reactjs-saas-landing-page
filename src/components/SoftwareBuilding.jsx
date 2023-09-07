@@ -6,7 +6,7 @@ import SB3 from "../assets/SB3.svg";
 const SoftwareBuilding = () => {
   return (
     <>
-      <div
+      <div data-aos="zoom-in"
         name="SoftwareBuilding"
         className=" bg-white max-w-full mx-auto pt-20 mt-20 pb-20"
       >
@@ -55,7 +55,7 @@ const SoftwareBuilding = () => {
 
             {/* right section */}
 
-            <div class="lg:w-[400px] lg:h-[350px] xl:w-[600px] xl:h-[400px] md:w-[300px] md:h-[300px] sm:w-[250px] h-[300px] w-[350px] sm:h-[200px] lg:mt-24 lg:ml-0 md:my-auto md:ml-18 sm:my-auto sm:ml-0 mt-0 mr-16 mb-6 mx-auto xl:mt-2">
+            <div data-aos="flip-right" class="lg:w-[400px] lg:h-[350px] xl:w-[600px] xl:h-[400px] md:w-[300px] md:h-[300px] sm:w-[250px] h-[300px] w-[350px] sm:h-[200px] lg:mt-24 lg:ml-0 md:my-auto md:ml-18 sm:my-auto sm:ml-0 mt-0 mr-16 mb-6 mx-auto xl:mt-2">
               <img
                 class=" mb-10 left-0 w-[100%] h-[100%]"
                 src={SB1}
@@ -78,7 +78,7 @@ const SoftwareBuilding = () => {
           <div className="w-3/4 grid sm:grid-cols-2 gap-8 px-4">
             {/* left section */}
 
-            <div class="lg:w-[400px] lg:h-[350px] xl:w-[600px] xl:h-[400px] md:w-[300px] md:h-[300px] sm:w-[250px] h-[300px] w-[350px] sm:h-[200px] lg:mt-24 lg:-m-10 md:mr-10 md:my-auto md:ml-18 sm:my-auto sm:ml-0 mt-0 mr-16 mb-6 mx-auto xl:mt-0">
+            <div data-aos="flip-right" class="lg:w-[400px] lg:h-[350px] xl:w-[600px] xl:h-[400px] md:w-[300px] md:h-[300px] sm:w-[250px] h-[300px] w-[350px] sm:h-[200px] lg:mt-24 lg:-m-10 md:mr-10 md:my-auto md:ml-18 sm:my-auto sm:ml-0 mt-0 mr-16 mb-6 mx-auto xl:mt-0">
               <img
                 class=" mb-10 left-0 w-[100%] h-[100%]"
                 src={SB2}
@@ -167,7 +167,7 @@ const SoftwareBuilding = () => {
 
             {/* right section */}
 
-            <div class="lg:w-[400px] lg:h-[350px] xl:w-[600px] xl:h-[400px] md:w-[300px] md:h-[300px] sm:w-[250px] h-[300px] w-[350px] sm:h-[200px] lg:mt-24 lg:ml-0 md:my-auto md:ml-18 sm:my-auto sm:ml-0 mt-0 mr-16 mb-6 mx-auto xl:mt-2">
+            <div data-aos="flip-right" class="lg:w-[400px] lg:h-[350px] xl:w-[600px] xl:h-[400px] md:w-[300px] md:h-[300px] sm:w-[250px] h-[300px] w-[350px] sm:h-[200px] lg:mt-24 lg:ml-0 md:my-auto md:ml-18 sm:my-auto sm:ml-0 mt-0 mr-16 mb-6 mx-auto xl:mt-2">
               <img
                 class=" mb-10 left-0 w-[100%] h-[100%]"
                 src={SB3}

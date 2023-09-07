@@ -2,7 +2,7 @@ import React from "react";
 
 const Information = () => {
   return (
-    <div name="Information" className="w-full h-screen text-gray-900">
+    <div data-aos="zoom-in"  name="Information" className="w-full h-screen text-gray-900">
       <div className="flex flex-col justify-center items-center w-full h-full">
       
         <div className="w-3/4 grid sm:grid-cols-2 gap-8 px-4 ">

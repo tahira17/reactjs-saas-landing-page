@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const QuestionSection = () => {
+export const HireDeveloperSection = () => {
   return (
     <div  class="bg-white w-full h-[600px]  justify-center items-center relative">
     <div data-aos="zoom-in" data-aos-duration="800" class="text-center bg-slate-100 rounded-xl w-3/4 lg:w-4/6 md:w-2/3 sm:w-3/4 sm:pr-10 h-1/3  lg:h-1/3 md:h-1/3 sm:h-1/3 absolute mx-auto my-auto top-0 bottom-0 left-0 right-0">
