@@ -34,15 +34,13 @@ const Information = () => {
           </div>
 
           {/* right section */}
-
-          <div class="aspect-w-16 aspect-h-9 rounded-2xl lg:w-[440px] lg:h-[400px] md:w-[350px] md:h-[300px] sm:w-[250px] h-[250px] w-[300px] sm:h-[200px] lg:mt-10 lg:ml-10 md:my-auto md:ml-18 sm:my-auto sm:ml-0 relative border-2 mt-0 mr-16 ml-10">
+          <div className="rounded-2xl lg:w-[440px] lg:h-[400px] md:w-[350px] md:h-[300px] sm:w-[250px] h-[250px] w-[300px] sm:h-[200px] lg:mt-10 lg:ml-10 md:my-auto md:ml-18 sm:my-auto sm:ml-0 relative border-2 mt-0 mr-16 ml-10">
             <iframe
               title="video"
-              class=" rounded-2xl mb-10 shadow-2xl absolute top-0 left-0 w-[100%] h-[100%]"
-              src="https://www.youtube.com/watch?v=BOl05zmQjOg"
-              frameborder="0"
+              className="rounded-2xl shadow-2xl absolute top-0 left-0 w-full h-full"
+              src="https://www.youtube.com/embed/BOl05zmQjOg"
               allow="autoplay; fullscreen; picture-in-picture"
-              allowfullscreen
+              allowFullScreen
             ></iframe>
           </div>
         </div>
