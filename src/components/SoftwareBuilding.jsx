@@ -6,24 +6,29 @@ import SB3 from "../assets/SB3.svg";
 const SoftwareBuilding = () => {
   return (
     <>
-      <div data-aos="zoom-in"
+      <div
+        id="whatwedo"
+        data-aos="zoom-in"
         name="SoftwareBuilding"
         className=" bg-white max-w-full mx-auto pt-20 mt-20 pb-20"
       >
         <hr class="w-20 h-1 mx-auto bg-gradient-to-r from-purple-900 via-purple-700 to-pink-700 border-0 rounded mb-4 " />
 
         <h4 className="text-4xl font-thin text-center  text-black mb-4 ">
-         Way of buiding
+          Way of buiding
         </h4>
         <h5 className="text-4xl text-center font-bold">Great Software</h5>
       </div>
-{/* First Section */}
-      <div  className="w-full h-[800px] bg-white  text-gray-900">
+      {/* First Section */}
+      <div className="w-full h-[800px] bg-white  text-gray-900">
         <div className="flex flex-col justify-center items-center w-full h-full">
           {/* first  */}
           <div className="w-3/4 grid sm:grid-cols-2 gap-8 px-4">
             {/* left section */}
-            <div data-aos="zoom-in" className="items-center  w-[90%] md:w-[100%] lg:w-full">
+            <div
+              data-aos="zoom-in"
+              className="items-center  w-[90%] md:w-[100%] lg:w-full"
+            >
               <div className="mt-24 lg:m-auto  lg:mt-12 lg:ml-10 lg:mr-10">
                 <h4 className="text-4xl font-thin">
                   Build the right team to scale{" "}
@@ -55,7 +60,10 @@ const SoftwareBuilding = () => {
 
             {/* right section */}
 
-            <div data-aos="flip-right" class="lg:w-[400px] lg:h-[350px] xl:w-[600px] xl:h-[400px] md:w-[300px] md:h-[300px] sm:w-[250px] h-[300px] w-[350px] sm:h-[200px] lg:mt-24 lg:ml-0 md:my-auto md:ml-18 sm:my-auto sm:ml-0 mt-0 mr-16 mb-6 mx-auto xl:mt-2">
+            <div
+              data-aos="flip-right"
+              class="lg:w-[400px] lg:h-[350px] xl:w-[600px] xl:h-[400px] md:w-[300px] md:h-[300px] sm:w-[250px] h-[300px] w-[350px] sm:h-[200px] lg:mt-24 lg:ml-0 md:my-auto md:ml-18 sm:my-auto sm:ml-0 mt-0 mr-16 mb-6 mx-auto xl:mt-2"
+            >
               <img
                 class=" mb-10 left-0 w-[100%] h-[100%]"
                 src={SB1}
@@ -63,22 +71,21 @@ const SoftwareBuilding = () => {
               />
             </div>
           </div>
-
-
-          </div>
+        </div>
       </div>
-      
 
+      {/* 2nd Section */}
 
-{/* 2nd Section */}
-
-<div  className="w-full bg-white h-[800px]  text-gray-900">
+      <div className="w-full bg-white h-[800px]  text-gray-900">
         <div className="flex flex-col justify-center items-center w-full h-full">
           {/* first  */}
           <div className="w-3/4 grid sm:grid-cols-2 gap-8 px-4">
             {/* left section */}
 
-            <div data-aos="flip-right" class="lg:w-[400px] lg:h-[350px] xl:w-[600px] xl:h-[400px] md:w-[300px] md:h-[300px] sm:w-[250px] h-[300px] w-[350px] sm:h-[200px] lg:mt-24 lg:-m-10 md:mr-10 md:my-auto md:ml-18 sm:my-auto sm:ml-0 mt-0 mr-16 mb-6 mx-auto xl:mt-0">
+            <div
+              data-aos="flip-right"
+              class="lg:w-[400px] lg:h-[350px] xl:w-[600px] xl:h-[400px] md:w-[300px] md:h-[300px] sm:w-[250px] h-[300px] w-[350px] sm:h-[200px] lg:mt-24 lg:-m-10 md:mr-10 md:my-auto md:ml-18 sm:my-auto sm:ml-0 mt-0 mr-16 mb-6 mx-auto xl:mt-0"
+            >
               <img
                 class=" mb-10 left-0 w-[100%] h-[100%]"
                 src={SB2}
@@ -86,8 +93,10 @@ const SoftwareBuilding = () => {
               />
             </div>
 
-
-            <div data-aos="zoom-in" className="items-center  w-[90%] md:w-[100%] lg:mb-10lg:w-full">
+            <div
+              data-aos="zoom-in"
+              className="items-center  w-[90%] md:w-[100%] lg:mb-10lg:w-full"
+            >
               <div className="mt-2 lg:m-auto  lg:mt-12 lg:ml-10 lg:mr-10">
                 <h4 className="text-4xl font-thin">
                   Build the right team to scale{" "}
@@ -118,24 +127,21 @@ const SoftwareBuilding = () => {
             </div>
 
             {/* right section */}
-
-         
           </div>
-
-
-          </div>
+        </div>
       </div>
 
+      {/* 3rd Section */}
 
-{/* 3rd Section */}
-
-
-      <div  className="w-full h-[800px] bg-white text-gray-900">
+      <div className="w-full h-[800px] bg-white text-gray-900">
         <div className="flex flex-col justify-center items-center w-full h-full">
           {/* first  */}
           <div className="w-3/4 grid sm:grid-cols-2 gap-8 px-4">
             {/* left section */}
-            <div data-aos="zoom-in" className="items-center  w-[90%] md:w-[100%] lg:w-full">
+            <div
+              data-aos="zoom-in"
+              className="items-center  w-[90%] md:w-[100%] lg:w-full"
+            >
               <div className="mt-24 lg:m-auto  lg:mt-12 lg:ml-10 lg:mr-10">
                 <h4 className="text-4xl font-thin">
                   Build the right team to scale{" "}
@@ -167,7 +173,10 @@ const SoftwareBuilding = () => {
 
             {/* right section */}
 
-            <div data-aos="flip-right" class="lg:w-[400px] lg:h-[350px] xl:w-[600px] xl:h-[400px] md:w-[300px] md:h-[300px] sm:w-[250px] h-[300px] w-[350px] sm:h-[200px] lg:mt-24 lg:ml-0 md:my-auto md:ml-18 sm:my-auto sm:ml-0 mt-0 mr-16 mb-6 mx-auto xl:mt-2">
+            <div
+              data-aos="flip-right"
+              class="lg:w-[400px] lg:h-[350px] xl:w-[600px] xl:h-[400px] md:w-[300px] md:h-[300px] sm:w-[250px] h-[300px] w-[350px] sm:h-[200px] lg:mt-24 lg:ml-0 md:my-auto md:ml-18 sm:my-auto sm:ml-0 mt-0 mr-16 mb-6 mx-auto xl:mt-2"
+            >
               <img
                 class=" mb-10 left-0 w-[100%] h-[100%]"
                 src={SB3}
@@ -175,11 +184,8 @@ const SoftwareBuilding = () => {
               />
             </div>
           </div>
-
-
-          </div>
+        </div>
       </div>
-  
     </>
   );
 };

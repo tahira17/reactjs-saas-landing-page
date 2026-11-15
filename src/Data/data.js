@@ -36,52 +36,53 @@ import Logo6 from "../assets/developApp6.svg";
 import nodejs from "../assets/NodeJS.svg";
 import php from "../assets/Php.svg";
 import mongodb from "../assets/mongodb.svg";
-import net from '../assets/NETCore.svg'
-import ruby from '../assets/RubyOnRails.svg'
-import java from '../assets/Java.svg'
-import python from '../assets/Python.svg'
+import net from "../assets/NETCore.svg";
+import ruby from "../assets/RubyOnRails.svg";
+import java from "../assets/Java.svg";
+import python from "../assets/Python.svg";
 export const data = [
   {
     id: 1,
-    name: "puel1",
-    Profession: "Engineer",
+    name: "Charlotte",
+    Profession: "Software Engineer",
     Testimonial:
-      "Hi ,Lorem augue te feugiat lacus, quis consequat lectus. Proin pellentesque rhoncus condimentum. ",
+      "The team delivered an excellent solution with great attention to detail. Their professionalism and technical expertise made the entire experience seamless.",
     Image: Img,
     Rating: Stars,
   },
   {
     id: 2,
-    name: "puel2",
-    Profession: "Engineer",
+    name: "William",
+    Profession: "Project Manager",
     Testimonial:
-      "2nd Loremero suscipit, madrerit augue tempor quis. Suspendisse quis elit eu tellus convallis volutpat. Vivamus ac feugiat lacus, quis consequat lectus. Proin pellentesque rhoncus condimentum. ",
+      "Communication was smooth throughout the project. The team understood our requirements and delivered a solution that exceeded our expectations.",
     Image: Img2,
     Rating: Stars,
   },
   {
     id: 3,
-    name: "puel3",
-    Profession: "Engineer",
+    name: "Oliver",
+    Profession: "Business Owner",
     Testimonial:
-      "3rd ..um erat, vel hendrerit augue tempor quis. Suspendisse quis elit eu tellus convallis volutpat. Vivamus ac feugiat lacus, quis consequat lectus. Proin pellentesque rhoncus condimentum.",
+      "Their innovative approach and commitment to quality helped us streamline our processes and improve our digital presence.",
     Image: Img3,
     Rating: Stars,
   },
   {
     id: 4,
-    name: "puel4",
-    Profession: "Engineer",
-    Testimonial: "4th...Lorem ipsum dolor sit amet, s condimentum.",
+    name: "Emily",
+    Profession: "Product Designer",
+    Testimonial:
+      "A great experience from start to finish. The team transformed our ideas into a user-friendly and visually appealing product.",
     Image: Img4,
     Rating: Stars,
   },
   {
-    id: 4,
-    name: "puel5",
-    Profession: "Engineer",
+    id: 5,
+    name: "Amelia",
+    Profession: "IT Consultant",
     Testimonial:
-      "4th...imentum erat, vel hendrerit augue tempor quis. Suspendisse quis elillentesque rhoncus condimentum.",
+      "Reliable, responsive, and technically strong. They delivered quality work while keeping our business goals in focus.",
     Image: Img5,
     Rating: Stars,
   },
@@ -92,39 +93,29 @@ export const services = [
     id: 1,
     serviceName: "Application Development",
     serviceDesc:
-      "Whether you are a small agency or a big one. Our influencer database will help you get better results for your clients.",
+      "Build scalable, high-performance applications tailored to your business needs and goals.",
     Image: Service1,
   },
   {
     id: 2,
     serviceName: "Mobile Application Development",
     serviceDesc:
-      "Whether you are a small agency or a big one. Our influencer database will help you get better results for your clients.",
+      "Create intuitive and feature-rich mobile applications for Android and iOS platforms.",
     Image: Service2,
   },
   {
     id: 3,
     serviceName: "Web Design & Development",
     serviceDesc:
-      "Whether you are a small agency or a big one. Our influencer database will help you get better results for your clients.",
-
+      "Design and develop responsive, user-friendly websites that deliver seamless digital experiences.",
     Image: Service3,
   },
   {
     id: 4,
     serviceName: "Software Testing Services",
     serviceDesc:
-      "Whether you are a small agency or a big one. Our influencer database will help you get better results for your clients.",
-
+      "Ensure software quality, reliability, and performance through comprehensive testing and quality assurance.",
     Image: Service4,
-  },
-  {
-    id: 5,
-    serviceName: "Software Testing",
-    serviceDesc:
-      "Whether you are a small agency or a big one. Our influencer database will help you get better results for your clients.",
-
-    Image: Service5,
   },
 ];
 
@@ -133,25 +124,23 @@ export const casestudies = [
     id: 1,
     caseStudyHeading: "Website Design for SCFC Canada",
     caseStudyDesc:
-      "Born out of a vision, a single-minded objective that puts service before anything else, Swift Clearance and Forwarding Corp. surging forth to deliver the best services in the shipping and logistics scenario. Its meteoric rise stems out of a solid foundation. The management boasts of over 20 years of rich and varied experience in the shipping and freight forwarding industry.",
+      "Developed a professional website for Swift Clearance and Forwarding Corp., highlighting its shipping and logistics expertise, comprehensive services, and commitment to reliable freight solutions.",
     Image: caseStudy1,
     color: "#F5EEF8",
   },
   {
     id: 2,
-    caseStudyHeading: "Website Design for SCFC Canada ",
+    caseStudyHeading: "Digital Experience for Shipping & Logistics",
     caseStudyDesc:
-      "Born out of a vision, a single-minded objective that puts service before anything else, Swift Clearance and Forwarding Corp. surging forth to deliver the best services in the shipping and logistics scenario. Its meteoric rise stems out of a solid foundation. The management boasts of over 20 years of rich and varied experience in the shipping and freight forwarding industry.",
-
+      "Created a user-friendly digital experience that showcases the company's freight forwarding capabilities, industry knowledge, and dedication to delivering efficient shipping solutions.",
     Image: caseStudy2,
     color: "#D1F2EB",
   },
   {
     id: 3,
-    caseStudyHeading: "Website Design for SCFC Canada ",
+    caseStudyHeading: "Corporate Website for Logistics Services",
     caseStudyDesc:
-      "Born out of a vision, a single-minded objective that puts service before anything else, Swift Clearance and Forwarding Corp. surging forth to deliver the best services in the shipping and logistics scenario. Its meteoric rise stems out of a solid foundation. The management boasts of over 20 years of rich and varied experience in the shipping and freight forwarding industry.",
-
+      "Designed a modern online presence that communicates the company's industry experience, builds customer confidence, and makes its logistics services easier to explore.",
     Image: caseStudy3,
     color: "#FDEDEC",
   },
@@ -259,57 +248,51 @@ export const developmentApproach = [
     id: 1,
     developAppHeading: "UX Driven Engineering",
     developAppDesc:
-      "Unlike other companies, we are a UX first development company. Projects are driven by designers and they make sure design and experiences translate to code.",
+      "We put user experience at the heart of development. Our design and engineering teams work together to create intuitive, engaging, and user-friendly digital products.",
     developAppBg: Bg1,
     developAppLogo: Logo1,
   },
   {
     id: 2,
-
     developAppHeading: "Proven Experience and Expertise",
     developAppDesc:
-      "Unlike other companies, we are a UX first development company. Projects are driven by designers and they make sure design and experiences translate to code.",
-
+      "Our experienced team combines technical knowledge and industry best practices to deliver reliable solutions tailored to your business requirements.",
     developAppBg: Bg2,
     developAppLogo: Logo2,
   },
   {
     id: 3,
-    developAppHeading: "Iterative delivery",
+    developAppHeading: "Iterative Delivery",
     developAppDesc:
-      "Unlike other companies, we are a UX first development company. Projects are driven by designers and they make sure design and experiences translate to code.",
+      "We follow an agile development approach, delivering work in manageable stages, gathering feedback, and continuously improving throughout the project.",
     developAppBg: Bg3,
     developAppLogo: Logo3,
   },
   {
     id: 4,
-    developAppHeading: "UX Driven Engineering",
+    developAppHeading: "Scalable Architecture",
     developAppDesc:
-      "Unlike other companies, we are a UX first development company. Projects are driven by designers and they make sure design and experiences translate to code.",
+      "We build flexible and scalable software architectures that adapt to your growing business needs while maintaining performance and reliability.",
     developAppBg: Bg4,
     developAppLogo: Logo4,
   },
   {
     id: 5,
-
-    developAppHeading: "Proven Experience and Expertise",
+    developAppHeading: "Transparent Communication",
     developAppDesc:
-      "Unlike other companies, we are a UX first development company. Projects are driven by designers and they make sure design and experiences translate to code.",
-
+      "We keep you involved at every stage through regular updates, clear communication, and collaborative decision-making.",
     developAppBg: Bg5,
     developAppLogo: Logo5,
   },
   {
     id: 6,
-
     developAppHeading: "Quality Assurance & Testing",
     developAppDesc:
-      "Unlike other companies, we are a UX first development company. Projects are driven by designers and they make sure design and experiences translate to code.",
+      "We prioritize software quality through thorough testing, early issue detection, and continuous improvements to ensure dependable performance.",
     developAppBg: Bg6,
     developAppLogo: Logo6,
   },
 ];
-
 
 export const stack = [
   {
@@ -340,7 +323,7 @@ export const stack = [
     id: 7,
     Image: nodejs,
   },
-    {
+  {
     id: 8,
     Image: python,
   },
